@@ -1,0 +1,20 @@
+h1{
+    font-family: 'Shizuru', cursive;
+    color: "#334756";
+}
+h2{
+    font-family: 'Play', sans-serif;
+    color: "#334756";
+}
+hr{
+    background-color:"#F334756";
+    border-style: dotted none none none; /* if 4 argument passed top. lft rt, bottom affed, if only 3 top,left and rt, bottom*/
+    height: 0px; /*should mention percentage instead of hard values*/
+    width: 14%;
+    border-color: "F334756";
+    border-width: 3px;
+}
+
+body{
+    background-color: "#F0A500";
+}
