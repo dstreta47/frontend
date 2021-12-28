@@ -1,7 +1,3 @@
-h1{
-    font-family: 'Shizuru', cursive;
-    color: #334756;
-}
 h2{
     font-family: 'Play', sans-serif;
     color: #334756; 
@@ -10,11 +6,68 @@ hr{
     background-color: #F334756;
     border-style: dotted none none none; /* if 4 argument passed top. lft rt, bottom affed, if only 3 top,left and rt, bottom*/
     height: 0px; /*should mention percentage instead of hard values*/
-    width: 14%;
+    width: 10%;
     border-color: "F334756";
-    border-width: 3px;
+    border-width: 8px;
 }
 
 body{
     background-color: #F0A500;
+    margin: 0;
+}
+
+.name{
+    background-color: #334756;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 130px;
+}
+
+.guitar_hover:hover{
+    background-color: azure;
+    width:max-content;
+}
+
+.Title_name{
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 2em;
+}
+
+h1{
+    font-family: 'Shizuru';
+}
+.title_body{
+    position: relative;
+    width: 38em;
+    height: 12em;
+    background-color:#082032 ;
+    border-radius:30%;
+    left: 28em;
+
+}
+
+.titlebio{
+    position: absolute;
+    top: 0.2em;
+    left:3.9em;
+    color:#F0A500;
+}
+
+.titlebio-text{
+    position: absolute;
+    top: 2.4em;
+    left:4.2em;
+    color: #d6d6d6;
+}
+
+.cloud1{
+    position: absolute;
+    left:24em;
+    z-index: 1;
+    top: 9em;
+    }
+.cloud2{
+    position: absolute;
+    right:26em;
+    z-index: 1;
+    top: 9em;
 }
